@@ -119,7 +119,7 @@ async def timer(ctx, seconds):
 
 @bot.event
 async def on_member_join(member): 
-    channel = discord.utils.get(member.guild.channels,  name="welcome")
+    channel = discord.utils.get(member.guild.channels,  name=910085494833053718)
     await channel.send(f"hi {member.mention}")
 
 
