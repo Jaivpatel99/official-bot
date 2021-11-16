@@ -118,6 +118,10 @@ async def timer(ctx, seconds):
     except ValueError:
         await ctx.send("You must enter a number1")
 
+@bot.event
+async def on_member_join(member): 
+    channel = discord.utils.get(member.guild.channels,  name="welcome")
+    await channel.send(f"hi {member.mention}")
 
 
 
