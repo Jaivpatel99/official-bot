@@ -23,6 +23,11 @@ async def on_ready():
 async def hi(ctx):
     await ctx.send("Hello!")
 
+@bot.command()
+async def jaiv(ctx):
+    await ctx.send("<#910214856089669642>")
+
+
 
 @bot.command()
 async  def ping(ctx):
