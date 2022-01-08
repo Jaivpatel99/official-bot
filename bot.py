@@ -39,7 +39,7 @@ async  def ping(ctx):
 async def say(ctx, *, msg):
     embed=discord.Embed(
         title="title",
-        description=msg,
+        description="msg",
         color=discord.Color.red()
     )
     embed.set_author(name= ctx.author.name, icon_url= ctx.author.avatar_url)
