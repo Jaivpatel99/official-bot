@@ -36,10 +36,10 @@ async  def ping(ctx):
 
 @bot.command()
 @commands.has_permissions(manage_messages=True)
-async def jaiv(ctx, *, msg):
+async def say(ctx, *, msg):
     embed=discord.Embed(
         title="title",
-        description = msg,
+        description=msg,
         color=discord.Color.red()
     )
     embed.set_author(name= ctx.author.name, icon_url= ctx.author.avatar_url)
