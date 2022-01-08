@@ -49,7 +49,7 @@ async def say(ctx):
     embed.set_footer(text="this is footer")
     embed.set_image(url= ctx.guild.icon_url)
     embed.set_thumbnail(url = ctx.author.avatar_url)
-    await ctx.channel.purge(1)
+       
     await  ctx.send(embed=embed)
 
 
