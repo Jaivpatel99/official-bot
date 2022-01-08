@@ -36,7 +36,7 @@ async  def ping(ctx):
 
 @bot.command()
 @commands.has_permissions(manage_messages=True)
-async def say(ctx, *, msg):
+async def jaiv(ctx, *, msg):
     embed=discord.Embed(
         title="title",
         description="msg",
